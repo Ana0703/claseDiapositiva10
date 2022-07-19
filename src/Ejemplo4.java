@@ -18,10 +18,10 @@ public class Ejemplo4 {
                 for (int j=0; j< numeros[i].length; j++)
                 {
                     // y se escribrir cada fila separada por comas
-                salida.print(numeros[i][j] + ",");
+                    salida.print(numeros[i][j] + ",");
                 }
                 //Cuando cambie linea cambio linea en el archivo
-            salida.println(""); //hacer ejecución con el y sin el 
+            //salida.println(""); //hacer ejecución con el y sin el 
             }
             // cierro
             salida.close();

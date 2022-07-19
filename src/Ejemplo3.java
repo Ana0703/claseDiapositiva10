@@ -23,7 +23,7 @@ public class Ejemplo3 {
     } catch (Exception e) {
         System.err.println(e);
     }
-    salida.println("\nLa línea escrita es: ");
+    salida.println("\nLa linea escrita es: ");
     salida.println(línea);
     }
     }
