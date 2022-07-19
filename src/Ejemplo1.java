@@ -1,6 +1,5 @@
 import java.io.*;
-// las herramientas de entrada y salida, 
-//* todas las clases de java.io
+
 
 public class Ejemplo1
 {
