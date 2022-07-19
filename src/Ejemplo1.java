@@ -14,7 +14,7 @@ try {// dentro del bloque de las llaves puede existir una excepcion
         caracter = (char)System.in.read();
         //convertir la lectura de bytes, a un caracter
         // lo imprime
-        System.out.print(caracter);// si le ponemos ln los caracteres salen uno debajo del otro
+        System.out.println(caracter);// si le ponemos ln los caracteres salen uno debajo del otro
         //System.out.println(caracter);// si le ponemos ln los caracteres salen uno debajo del otro
         //aumenta la cantidad de bytes
         numBytes++;
@@ -22,7 +22,7 @@ try {// dentro del bloque de las llaves puede existir una excepcion
                                     //sea diferente a salto de linea
 	//usar el System.error por ejemplo al cachar una exception es
 	//acá actua igual que system.out
-    System.err.printf("%d bytes leidos %n", numBytes-2);
+    System.err.printf("%d bytes leidos %n", numBytes);
     } catch (IOException e) //IOException captura todas las excepciones de IO 
     {
     System.err.println(e);
