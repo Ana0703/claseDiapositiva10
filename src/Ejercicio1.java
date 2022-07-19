@@ -2,6 +2,8 @@ import java.io.DataInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
+// en el app esta la ejecucion de este ejercicoEjercicio1.run_Eje1();
+
 public class Ejercicio1 {
     public static void run_Eje1() {
         //leo el archivo
@@ -26,8 +28,7 @@ public class Ejercicio1 {
         //mientras al leer el caracter es diferente de nulo, es decir caracter cero
         //Recordar que en java esta en unicode
         
-        //while ((carac=by_ar.readChar())!= '\0')
-        //Decir que me lea un byte y lo convierta a char
+        //lee un byte y lo convierta a char
         while ((carac=(char)by_ar.readByte())!= '\0')
         {
             if(carac==' ')

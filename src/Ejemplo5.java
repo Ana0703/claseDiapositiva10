@@ -33,7 +33,7 @@ public class Ejemplo5 {
             System.out.println("¡El fichero no existe!");
         }
    } 
-//public static void main(String[] args) throws IOException{
-    //leer("C:\\Users\\Ana Maria\\Documents\\UTP_MINTIC\\Ciclo 2\\Unidad 4\\Ejemplos\\Clase10\\ejemplo1.txt");
-//}
+public static void main(String[] args) throws IOException{
+    leer("C:\\Users\\Ana Maria\\Documents\\UTP_MINTIC\\Ciclo 2\\Unidad 4\\Ejemplos\\Clase10\\ejemplo1.txt");
+}
 }

@@ -8,7 +8,8 @@ public class Ejercicio2 {
  
     public static void main(String[] args) {
         //cuadros de dialogo para pedir por teclado
-        
+        // en el cuadro copiar la ruta con la que se quiere trabajar 
+        //y el nombre que se le dará al archivo
         String ubicacion=JOptionPane.showInputDialog("Introduce la ruta del fichero");
         String cadena=JOptionPane.showInputDialog("Introduce el texto que quieras escribir en el fichero");
         //Metodo para escribir
