@@ -11,7 +11,7 @@ public class Ejercicio1 {
         //carpeta src
        
         var archivo=("C:\\Users\\Ana Maria\\Desktop\\MISIONTIC 2022\\Ruta 2\\CICLO 2\\Semana_4\\Ejemplos\\ejemplo1\\src\\ejercicio1.txt");
-    
+                      
     try {
         // creamos una if para saber si el documento existe
             var file= new File(archivo);

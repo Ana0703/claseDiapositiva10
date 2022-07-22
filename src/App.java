@@ -6,11 +6,10 @@
 
 //debo importar los elementos para el ejemplo de la diapositiva 18 ojo
 
-
 public class App {
     public static void main(String[] args) throws Exception {
-        var archivo=new Ejemplo4();
-        archivo.escribir("ejemploG61");
+        // var archivo=new Ejemplo4();
+        // archivo.escribir("ejemploG61");
 
         // var ep=new ElemenPersona();
         // //puedo generar personas.dat, personas.txt, personas.obj
@@ -25,6 +24,6 @@ public class App {
         // List<Persona> personas=ep.cargarPersonas("Personas.txt");
         // personas.forEach(System.out::println);
         
-        //Ejercicio1.run_Eje1();
+        Ejercicio1.run_Eje1();
 }
 }
