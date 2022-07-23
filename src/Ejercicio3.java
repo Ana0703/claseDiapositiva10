@@ -5,7 +5,7 @@ public class Ejercicio3{
  
     public static void main(String[] args) {
  
-        final String Ubic="C:\\Users\\Ana Maria\\Desktop\\MISIONTIC 2022\\Ruta 2\\CICLO 2\\Semana_4\\Ejemplos\\ejemplo1\\vehiculos.txt";
+        final String Ubic="C:\\Users\\Ana Maria\\Desktop\\MISIONTIC 2022\\Ruta 2\\CICLO 2\\Semana_4\\Ejemplos\\ejemplo1\\vehiculos11.txt";
  
         String m=JOptionPane.showInputDialog("Matricula del Vehiculo");
         String mar=JOptionPane.showInputDialog("Marca del Vehiculo");
@@ -14,7 +14,8 @@ public class Ejercicio3{
         //Método para convertir una cadena en un doble
         double tamDep=Double.parseDouble(dep);
        
- 
+        //DataOutputStream
+        //Se crea un objeto de la clase DataInputStream vinculándolo a un un objeto FileInputStream para leer desde un archivo
         try(DataOutputStream salida=new DataOutputStream(new FileOutputStream(Ubic,true));
                 DataInputStream entrada=new DataInputStream(new FileInputStream(Ubic))){
  
@@ -35,6 +36,7 @@ public class Ejercicio3{
                                         double tamDep,
                                         String mo) throws IOException{
  
+        //escribe una cadena en el flujo de salida mediante la codificación UTF-8 
         salida.writeUTF(m);
         salida.writeUTF(mar);
         salida.writeDouble(tamDep);
