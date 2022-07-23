@@ -9,7 +9,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         // var archivo=new Ejemplo4();
-        // archivo.escribir("ejemploG61");
+        // archivo.escribir("ejemploG18.txt");
 
         // var ep=new ElemenPersona();
         // //puedo generar personas.dat, personas.txt, personas.obj
@@ -18,8 +18,9 @@ public class App {
         //         Arrays.asList(
         //         new Persona("552871883","María", "Ruiz Ramos"),
         //         new Persona("403020104","Juan", "González López"),
+        //         new Persona("487920452","Pedro", "Tamayo"),
         //         new Persona("441234789","Luis", "Perez"),
-        //         new Persona("441234789","Luis", "Perez")
+        //         new Persona("784125366","Laura", "Pardo")
         //         ));
         // List<Persona> personas=ep.cargarPersonas("Personas.txt");
         // personas.forEach(System.out::println);

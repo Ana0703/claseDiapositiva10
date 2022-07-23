@@ -21,7 +21,7 @@ public class Ejemplo4 {
                     salida.print(numeros[i][j] + " ");
                 }
                 //Cuando cambie linea cambio linea en el archivo
-            salida.println(""); //hacer ejecución con el y sin el 
+            //salida.println(""); //hacer ejecución con el y sin el 
             }
             // cierro
             salida.close();
